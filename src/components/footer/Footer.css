@@ -1,0 +1,134 @@
+/* .Footer{
+    height: 15vh;
+    background-color: #DAFFFF;
+    width: 100%;
+    display: flex;
+    padding-bottom: 150px;
+} */
+
+
+.Footer{
+    height: 15vh;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    padding-bottom: 150px;
+  }
+  
+  
+
+.footer_column{
+    /* height:100%; */
+    width:25vw;
+
+}
+.footer {
+    background: blue;
+}
+
+.footer_column_container{
+    display: flex;
+    flex-direction: row;
+
+    height:100%;
+}
+
+.staffs{
+  width:80%;
+  margin: auto;
+}
+
+.columns{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.staffs h4{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.column1{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+ } 
+
+.column2{
+    column-width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.column1 a:hover{
+    padding: 5px;
+    background-color:var(--fourth-color);
+}
+
+.column2 a:hover{
+    padding: 5px;
+    background-color:var(--fourth-color);
+}
+
+.api{
+    display: flex;
+    flex-direction: column;
+    height:60%;
+    text-align: center; 
+    margin-top: 10px;  
+}
+
+.cerveau{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.inserm{ 
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height:100%;
+    text-align: center;
+}
+
+.inserm h4{
+    text-align: center;
+    /* font-size: 18px; */
+    height:10%;
+    /* margin-top: 10px; */
+
+}
+
+.img_inserm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+
+.amelie{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height:100%;
+    text-align: center;
+} 
+ 
+.img_footer{
+    margin-left: auto;
+    margin-right: auto;
+     margin-top: 30px;
+}
+
+
+
+
+
+    

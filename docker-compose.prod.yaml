@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  memory-twins:
+    image: memory-twins
+    container_name: memory-twins
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+    - "3058:3000"    # Map container port 80 to host port 80
+    # expose:
+    #   - "3000"
+    environment:
+      NODE_ENV: production
+    networks:
+      - memory-twins-prod
+
+networks:
+  memory-twins-prod:
+    external: true
